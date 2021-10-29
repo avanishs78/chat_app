@@ -1,0 +1,60 @@
+.chatBox {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.contactList {
+  border: 1px solid;
+  height: 100vh;
+  width: 30vw;
+  padding: 3px;
+  margin: 0;
+  color: white;
+  background-color: rgb(39, 38, 38);
+}
+.contact:{
+    background-color: red;
+}
+.chatDetail {
+  border: 1px solid;
+  height: 100vh;
+  width: 70vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(39, 38, 38);
+}
+.user{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.admin{
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.message {
+  display: flex;
+}
+.input {
+  width: 50vw;
+}
+.send {
+  width: 15vw;
+}
+.contact {
+  border: 1px solid;
+  display: flex;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px
+}
